@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+* {
+    font-family: inherit;
+    font-weight: inherit;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+    text-align: center;
+    font-size: calc(3vw + 2rem);
+    font-weight: 900;
+    color: rgb(250, 221, 184);
+    letter-spacing: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.score {
+    display: flex;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.gameboard {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(auto, 30vh);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+    border-radius: 10%;
+    background-color: white;
+    border: none;
+}
+
+img {
+    border-radius: 40%;
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.modal {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    font-size: 600%;
+    font-weight: 900;
+    
+    font-style: italic;
+    opacity: 1;
+}
+
+.modal.critical {
+    visibility: visible;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    color: greenyellow;
+    text-transform: uppercase;
+}
+
+.modal.botch {
+    visibility: visible;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    color: red;
+    text-transform: uppercase;
 }
