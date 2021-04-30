@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.b417b8b7.chunk.css",
+    "main.js": "/memory-game/static/js/main.ea22997a.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.ea22997a.chunk.js.map",
+    "runtime-main.js": "/memory-game/static/js/runtime-main.780cb48f.js",
+    "runtime-main.js.map": "/memory-game/static/js/runtime-main.780cb48f.js.map",
+    "static/js/2.434d35bc.chunk.js": "/memory-game/static/js/2.434d35bc.chunk.js",
+    "static/js/2.434d35bc.chunk.js.map": "/memory-game/static/js/2.434d35bc.chunk.js.map",
+    "index.html": "/memory-game/index.html",
+    "static/css/main.b417b8b7.chunk.css.map": "/memory-game/static/css/main.b417b8b7.chunk.css.map",
+    "static/js/2.434d35bc.chunk.js.LICENSE.txt": "/memory-game/static/js/2.434d35bc.chunk.js.LICENSE.txt",
+    "static/media/ankheg.0ba3c8a6.jpeg": "/memory-game/static/media/ankheg.0ba3c8a6.jpeg",
+    "static/media/banshee.cf68807b.jpeg": "/memory-game/static/media/banshee.cf68807b.jpeg",
+    "static/media/beardeddevil.97e4bc01.jpeg": "/memory-game/static/media/beardeddevil.97e4bc01.jpeg",
+    "static/media/bulette.e9b99a2a.jpeg": "/memory-game/static/media/bulette.e9b99a2a.jpeg",
+    "static/media/chimera.4dc259ad.jpeg": "/memory-game/static/media/chimera.4dc259ad.jpeg",
+    "static/media/djinni.58f7376f.jpeg": "/memory-game/static/media/djinni.58f7376f.jpeg",
+    "static/media/erinyes.25a255a0.jpeg": "/memory-game/static/media/erinyes.25a255a0.jpeg",
+    "static/media/firegiant.c5f3f6a2.jpeg": "/memory-game/static/media/firegiant.c5f3f6a2.jpeg",
+    "static/media/goblin.9e4e26b7.jpeg": "/memory-game/static/media/goblin.9e4e26b7.jpeg",
+    "static/media/halfogre.b87ccedd.jpeg": "/memory-game/static/media/halfogre.b87ccedd.jpeg",
+    "static/media/hobgoblin.e56a28ec.jpeg": "/memory-game/static/media/hobgoblin.e56a28ec.jpeg",
+    "static/media/hydra.ed410b7f.jpeg": "/memory-game/static/media/hydra.ed410b7f.jpeg",
+    "static/media/kobold.16e967d4.jpeg": "/memory-game/static/media/kobold.16e967d4.jpeg",
+    "static/media/oni.f5ab2430.jpeg": "/memory-game/static/media/oni.f5ab2430.jpeg",
+    "static/media/stonegolem.fd641ad2.jpeg": "/memory-game/static/media/stonegolem.fd641ad2.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.780cb48f.js",
+    "static/js/2.434d35bc.chunk.js",
+    "static/css/main.b417b8b7.chunk.css",
+    "static/js/main.ea22997a.chunk.js"
+  ]
+}
