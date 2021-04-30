@@ -26,7 +26,7 @@ You will also see any lint errors in the console.
 
 ## Live Demo
 
-[CV App](https://afzaman.github.io/memory-game)
+[Memory Game](https://afzaman.github.io/memory-game)
 
 ## Getting Started
 
