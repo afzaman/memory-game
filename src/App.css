@@ -1,0 +1,92 @@
+* {
+    font-family: inherit;
+    font-weight: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;    
+}
+
+.title {
+    text-align: center;
+    font-size: calc(3vw + 2rem);
+    font-weight: 900;
+    color: rgb(250, 221, 184);
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.title.subtitle{
+    font-size: calc(1vw + 1rem);
+
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(auto, 30vh);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.card {
+    border-radius: 10%;
+    background-color: white;
+    border: none;
+    opacity: 1;
+    animation: fadeimage 1s ease-in 0s;
+}
+
+img {
+    border-radius: 40%;
+    max-width: 100%;
+    max-height: 80%;
+}
+
+@keyframes fadeimage{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 600%;
+    font-weight: 900;
+    font-style: italic;
+
+    visibility: hidden;
+    opacity: 1;
+}
+
+.modal.critical {
+    visibility: visible;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    color: greenyellow;
+    text-transform: uppercase;
+}
+
+.modal.botch {
+    visibility: visible;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    color: red;
+    text-transform: uppercase;
+}
